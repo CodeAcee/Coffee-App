@@ -13,19 +13,19 @@ const Intro = () => {
       id: 1,
       image: require("../assets/images/1.png"),
       title: "Проходи Регистрацию",
-      subTitle: "И не еби мозги, потому шо шамарну падла",
+      subTitle: "Выбери любую кофейню твоего города !",
     },
     {
       id: 2,
       image: require("../assets/images/2.png"),
       title: "Заказывай кофе",
-      subTitle: "Подавись и иди нахуй",
+      subTitle: "И не жди в очереди",
     },
     {
       id: 3,
       image: require("../assets/images/3.png"),
       title: "Приходи забирай!",
-      subTitle: "И уебуй нахуй, пока я тебе ноги не переломал паскуда",
+      subTitle: "С легкостью оформляй заказы",
     },
   ];
   const [selectedId, setSelectedId] = useState(1);
